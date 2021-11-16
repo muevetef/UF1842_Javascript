@@ -1,26 +1,28 @@
-//Reemplazar elementos
 
-//Crear un elento
-const newHeading = document.createElement('h2');
-newHeading.id = 'task-title';
-newHeading.appendChild(document.createTextNode("Super Lista de tareas"));
+  //Reemplazar elementos
 
-//Seleccionar el elemento viejo
-const oldHeading = document.getElementById('task-title');
+  //Crear un elento
+  const newHeading = document.createElement("h2");
+  newHeading.id = "task-title";
+  newHeading.appendChild(document.createTextNode("Super Lista de tareas"));
 
-//seleccionar el Padre
-const card = document.querySelector('.card-action');
+  //Seleccionar el elemento viejo
+  const oldHeading = document.getElementById("task-title");
 
-//Reemplazar
+  //seleccionar el Padre
+  const card = document.querySelector(".card-action");
 
-card.replaceChild(newHeading, oldHeading)
+  //Reemplazar
+  console.log(newHeading, oldHeading);
+  card.replaceChild(newHeading, oldHeading);
 
-//Eliminar un hijo
+  //Eliminar un hijo
 
-const lis = document.querySelectorAll('li');
-const lista = document.querySelector('ul');
-lis[0].remove();
+  const lis = document.querySelectorAll("li");
+  const lista = document.querySelector("ul");
+  lis[0].remove();
 
-lista.removeChild(lis[3])
+  lista.removeChild(lis[3]);
 
-// lis[1].parentElement.removeChild(lis[1]);
+  // lis[1].parentElement.removeChild(lis[1]);
+
