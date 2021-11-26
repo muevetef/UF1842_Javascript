@@ -1,0 +1,9 @@
+.normal{
+    color: blue;
+    background-color: brown;
+}
+
+.invertido{
+    color: brown;
+    background-color: blue;
+}
