@@ -40,3 +40,4 @@ Persona.existe = true;
 
 console.log(Persona.existe);
 console.log(Persona.sumar(2, 4));
+
