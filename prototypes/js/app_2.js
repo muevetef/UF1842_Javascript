@@ -20,9 +20,7 @@ function Mutante(nombre, apellidos, nick, superpower ){
 }
 
 //Heredar los metodos del prototype
-Mutante.prototype = Object.create(Persona.prototype, {
-  
-});
+Mutante.prototype = Object.create(Persona.prototype);
 //Devolver el constructor de Mutante()
 Mutante.prototype.constructor = Mutante;
 
