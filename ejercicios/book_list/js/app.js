@@ -22,15 +22,18 @@ Ui.prototype.addBooktoList = function (book) {
 
   list.appendChild(row);
 };
+
 Ui.prototype.deleteBook = function(target){
     target.parentElement.parentElement.remove();
 }
+
 //Método limpiar campos
 Ui.prototype.clearFields = function () {
   (document.getElementById("title").value = ""),
     (document.getElementById("author").value = ""),
     (document.getElementById("isbn").value = "");
 };
+
 Ui.prototype.showAlert = function (msg, className) {
   //Crear un div para los mensages
   const div = document.createElement("div");
@@ -51,6 +54,7 @@ Ui.prototype.showAlert = function (msg, className) {
     document.querySelector(".alert").remove();
   }, 2000);
 };
+
 //Evento Submit
 document.getElementById("book-form").addEventListener("submit", function (e) {
   const title = document.getElementById("title").value,
