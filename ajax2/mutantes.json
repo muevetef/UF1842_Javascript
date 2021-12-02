@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "nombre": "Hulk",
+    "pandilla": "Vengadores",
+    "mutacion": "Fuerza verde",
+    "activo": true
+},
+{
+    "id": 2,
+    "nombre": "Lobezno",
+    "pandilla": "Vengadores",
+    "mutacion": "Garras",
+    "activo": true
+},
+{
+    "id": 3,
+    "nombre": "Tormenta",
+    "pandilla": "Xman",
+    "mutacion": "Vientos y Rayos",
+    "activo": false
+}
+]
